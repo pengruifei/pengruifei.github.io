@@ -47,12 +47,12 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
       - | # 网站小图标，可换成你自己的图片，改href中的部分即可
         <link
           rel="apple-touch-icon-precomposed"
-          href="https://i.loli.net/2020/04/16/tWHQ67cvsCkDp2u.jpg"
+          href="/assets/image/ruifei.jpg"
         />
         <link
           rel="shortcut
           icon"
-          href="https://i.loli.net/2020/04/16/tWHQ67cvsCkDp2u.jpg"
+          href="/assets/image/ruifei.jpg"
         />
       - | # 来自lanyon的页面样式，不要改
         <link
@@ -238,7 +238,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
       disable: false # 是否不显示sidebar
       avatar: # 侧边栏显示的头像
         enable: true
-        img: https://gravatar.loli.net/avatar/289efba375d63424de3c49569c446744?s=320 # 头像的地址
+        img: /assets/image/ruifei.jpg # 头像的地址
       nav: # 导航部分的内容，你也可以自己增加文字、图标（来自fontawesome）和对应的链接
         - title: '<i class="fas fa-home fa-fw"></i> 首页'
           href: /
@@ -350,7 +350,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
                 document.getElementById("run_time_hour").innerHTML = setzero(hrsold);
                 document.getElementById("run_time_minute").innerHTML = setzero(minsold);
                 document.getElementById("run_time_second").innerHTML = setzero(seconds);
-              }, 1000, "16/04/2020 23:30:00") // 这是我的githubpages搭建的时间
+              }, 1000, "17/04/2020 10:35:00") // 这是我的第一篇文章的时间
             </script>
           </div>
         - | # 不蒜子页面统计，看不懂可不改
@@ -549,7 +549,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
           var alipay = "https://qr.alipay.com/fkx04200dmdzna7l8arf8e";
           var paypal = "https://paypal.me/pengruifei";
           var myname = "彭瑞飞";
-          var profile = "https://i.loli.net/2020/04/16/tWHQ67cvsCkDp2u.jpg";
+          var profile = "/assets/image/ruifei.jpg";
           var multilingual = true;
           var myname_hans = "彭瑞飞";
           var myname_hant = "彭瑞飞";
