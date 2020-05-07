@@ -85,7 +85,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
                 "hidden": true,
                 "night": "for(let i=7; i<16; ++i) if(document.body.classList.contains(`theme-base-0`+i.toString(16))) { document.body.classList.remove(`theme-base-0`+i.toString(16)); document.body.classList.add(`theme-base-0`+((i-6)%9+7).toString(16)); break; }",
                 "content": {
-                  "link": ["https://jekyll-theme-WuK.wu-kan.cn"],
+                  "link": ["https://github.com/pengruifei"],
                   "skin": ["要换成我的朋友吗？", "让她放个假吧~"],
                   "custom": [{
                     "selector": "a",
