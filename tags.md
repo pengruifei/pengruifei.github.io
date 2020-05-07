@@ -1,6 +1,6 @@
 ---
 layout: tags
-title: 标签
+title: 文章标签
 jekyll-theme-WuK:
   sidebar_open: true
 ---

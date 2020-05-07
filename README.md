@@ -1,3 +1,7 @@
+---
+jekyll-theme-WuK:
+ sidebar_open: true
+---
 大家好，我是彭瑞飞，欢迎访问我的个人主页！
 
 **我的联系方式:**
