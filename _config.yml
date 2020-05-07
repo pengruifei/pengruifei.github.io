@@ -1,13 +1,12 @@
 title: pengruifei # 站点标题
 description: | # 头像背后的信息（html格式），<br/>代表换行
-  计算力学博士<br/>
   <a href="mailto:pengruifei@mail.dlut.edu.cn">
     <i class="fas fa-envelope"></i>
   </a>
   <a href="https://github.com/pengruifei">
     <i class="fab fa-github"></i>
   </a>
-  <a href="https://www.zhihu.com/people/alanrain/activities">
+  <a href="https://www.zhihu.com/people/peng-rui-fei">
     <i class="fab fa-zhihu"></i>
   </a>
 url: https://pengruifei.github.io # 你的域名，例如 https://wu-kan.github.io
@@ -93,7 +92,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
                     "type": "link",
                   }, {
                     "selector": ".sidebar-toggle",
-                    "text": "打开侧边栏叭~"
+                    "text": "打开侧边栏~"
                   }, {
                     "selector": ".effect-info",
                     "text": "哇，你发现了什么！"
@@ -175,37 +174,6 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
           img {
             display: inline-block;
             margin: 0;
-          }
-        </style>
-      - | # 侧边栏头像效果
-        <style>
-          .effect {
-            margin: 1rem;
-            perspective: 900px;
-          }
-          .effect-info {
-            text-align: center;
-            backface-visibility: hidden;
-            position: absolute;
-            top: 0;
-            transform-style: preserve-3d;
-          }
-          .effect-img {
-            z-index: 11;
-            width: 100%;
-            height: 100%;
-            position: relative;
-            transition: all 0.5s ease-in-out;
-          }
-          .effect-img:before {
-            position: absolute;
-            display: block;
-          }
-          .effect-right_to_left .effect-img {
-            transform-origin: 0% 50%;
-          }
-          .effect-right_to_left:hover .effect-img {
-            transform: rotate3d(0, 1, 0, -180deg);
           }
         </style>
       - | # 彩虹滚动条，仅对Chrome系浏览器生效
