@@ -242,11 +242,11 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
       nav: # 导航部分的内容，你也可以自己增加文字、图标（来自fontawesome）和对应的链接
         - title: '<i class="fas fa-home fa-fw"></i> 首页'
           href: /
-        - title: '<i class="fas fa-comments fa-fw"></i> 留言'
-          href: /comments/
-        - title: '<i class="fas fa-tags fa-fw"></i> 标签'
+        - title: '<i class="fas fa-tags fa-fw"></i> 文章标签'
           href: /tags/
-        - title: '<i class="fas fa-archive fa-fw"></i> 归档'
+        - title: '<i class="fas fa-comments fa-fw"></i> 读者留言'
+          href: /comments/
+        - title: '<i class="fas fa-archive fa-fw"></i> 文章归档'
           href: /archive/
         - title: '<i class="fas fa-coffee fa-fw"></i> 打赏'
           href: /merger/
