@@ -70,7 +70,6 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
       - | # 引入Gitalk
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1.6.2/dist/gitalk.css">
         <script src="https://cdn.jsdelivr.net/npm/gitalk@1.6.2/dist/gitalk.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/md5@2.2.1/md5.min.js"></script>
       - | # 引入live2d看板娘！不需要可以把这一项都删掉
         <link
           rel="stylesheet"
@@ -466,13 +465,14 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
       | # 配置评论区
        <div id="gitalk-container"></div>
        <script type="text/javascript">
+          var reduceID = location.pathname.substr(0, 50);
           const gitalk = new Gitalk({
               clientID: 'c24fca464e472ee4f1e6',
               clientSecret: '5f6b0558dc4487ea4639f8457102a419e47b8e95',
               repo: 'pengruifei.github.io',
               owner: 'pengruifei',
               admin: ['pengruifei'],
-              id: md5(location.pathname),
+              id: reduceID,
               distractionFreeMode: false
           });
           gitalk.render('gitalk-container');
