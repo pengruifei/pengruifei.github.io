@@ -67,6 +67,9 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
         />
       - | # 引入fontawesome图标样式
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css">
+      - | # 引入Gitalk
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+        <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
       - | # 引入live2d看板娘！不需要可以把这一项都删掉
         <link
           rel="stylesheet"
@@ -459,23 +462,21 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
         ></script>
   comments: # 留言页
     alert:
-      | # 配置评论区，appId和appKey需要换成你自己的，见<https://valine.js.org/configuration.html>，推荐再整一个评论管理系统<https://github.com/DesertsP/Valine-Admin>
-      <div class="v">
-        <i class="fas fa-spinner fa-pulse"></i>
-      </div>
-      <script
-        src='https://cdn.jsdelivr.net/npm/valine@1.4.4/dist/Valine.min.js'
-        defer='defer'
-        onload='
-          new Valine({
-            "el": document.getElementsByClassName("v")[0],
-            "appId": "vQEi8iAMNNYE0pxgIjFDh8TG-gzGzoHsz",
-            "appKey": "qdsbpbAsiTfMJU5YLf9ykw4l",
-            "placeholder": "在这里评论吧！",
-            "visitor": true,
-            "recordIP": true
-          })'
-      ></script>
+      | # 配置评论区
+       <div id="gitalk-container"></div>
+          <script type="text/javascript">
+          var reduceID = location.pathname.substr(0,50);
+          const gitalk = new Gitalk({
+              clientID: 'c24fca464e472ee4f1e6',
+              clientSecret: '5f6b0558dc4487ea4639f8457102a419e47b8e95',
+              repo: 'comment',
+              owner: 'pengruifei',
+              admin: ['pengruifei'],
+              id: title,
+              distractionFreeMode: false
+          });
+          gitalk.render('gitalk-container');
+          </script>
   post:
     date: # 显示博文时间
       enable: true
