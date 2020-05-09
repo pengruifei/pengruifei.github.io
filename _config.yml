@@ -469,7 +469,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
           const gitalk = new Gitalk({
               clientID: 'c24fca464e472ee4f1e6',
               clientSecret: '5f6b0558dc4487ea4639f8457102a419e47b8e95',
-              repo: 'pengruifei.github.io',
+              repo: 'comment',
               owner: 'pengruifei',
               admin: ['pengruifei'],
               id: reduceID,
