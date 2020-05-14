@@ -1,0 +1,13 @@
+name: 'wake comment system'
+on:
+  push:
+  schedule:
+    - cron: '7,33,53 0-15,23 * * *'
+
+jobs:
+    job1:
+    name: 'visit website'
+    runs-on: ubuntu-latest
+    steps:
+    - name: 'visit admin url'
+      run: bash visitadminurl.sh
