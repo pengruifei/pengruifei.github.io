@@ -136,11 +136,21 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
               });
             }'
         ></script>
-      - | # 百度爬虫推送，http站点使用 http://push.zhanzhang.baidu.com/push.js
-        <script
-          src='https://zz.bdstatic.com/linksubmit/push.js'
-          async="async"
-        ></script>
+      - | # 百度爬虫自动推送
+        <script>
+        (function(){
+            var bp = document.createElement('script');
+            var curProtocol = window.location.protocol.split(':')[0];
+            if (curProtocol === 'https') {
+                bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+            }
+            else {
+                bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+            }
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(bp, s);
+        })();
+        </script>
       - | #<!-- Global site tag (gtag.js) - Google Analytics -->
         <script
           async="async"

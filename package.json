@@ -1,0 +1,4 @@
+// package.json
+"scripts": {
+    "baiduPush": "node utils/baiduPush.js https://pengruifei.github.io && bash baiduPush.sh"
+}
