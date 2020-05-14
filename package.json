@@ -1,5 +1,9 @@
 {
   "scripts": {
     "baiduPush": "node utils/baiduPush.js https://pengruifei.github.io && bash baiduPush.sh"
+  },
+  "devDependencies": {
+    "chalk": "^4.0.0",
+    "md5.js": "^1.3.5"
   }
 }
