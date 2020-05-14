@@ -2,6 +2,6 @@
   "name": "pengruifei-blog",
   "version": "1.0.0",
   "scripts": {
-    "baiduPush": "node utils/baiduPush.js https://xugaoyi.com && bash baiduPush.sh"
+    "baiduPush": "node utils/baiduPush.js https://pengruifei.github.io && bash baiduPush.sh"
   },
 }
