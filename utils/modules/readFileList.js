@@ -6,7 +6,7 @@ const path = require('path'); // 路径模块
 const MD5 = require('md5.js');
 const docsRoot = path.join(__dirname, '..', '..', '_posts'); // posts文件路径
 
-const PREFIX = '/pages/'; // 链接前缀
+const PREFIX = '/_posts/'; // 链接前缀
 
 function readFileList(dir = docsRoot, filesList = []) {
  
