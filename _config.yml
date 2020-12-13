@@ -104,7 +104,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                     "hidden": true,
                     "night": "for(let i=7; i<16; ++i) if(document.body.classList.contains(`theme-base-0`+i.toString(16))) { document.body.classList.remove(`theme-base-0`+i.toString(16)); document.body.classList.add(`theme-base-0`+((i-6)%9+7).toString(16)); break; }",
                     "content": {
-                      "link": ["https:\/\/pengruifei.github.io"],
+                      "link": ["https:\/\/researchgate.net/profile/Ruifei_Peng"],
                       "skin": ["要换成我的朋友吗？", "让她放个假吧~"],
                       "hidden": true,
                       "custom": [{
@@ -606,7 +606,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 var wechat = "wxp://f2f0_hjcettIG0aoKgyik9ESylAG4F6JDgM1";
                 var tenpay = "https://i.qianbao.qq.com/wallet/sqrcode.htm?m=tenpay&f=wallet&a=1&ac=CAEQ3pvZ5gMYudHh9AU%3D_xxx_sign&u=1020677598&n=Alan";
                 var alipay = "https://qr.alipay.com/fkx04200dmdzna7l8arf8e";
-                var paypal = "https://paypal.me/pengruifei";
+                var paypal = "https://paypal.me/ruifeipeng";
                 var myname = "彭瑞飞";
                 var profile = "/assets/image/ruifei.jpg";
                 var multilingual = true;
