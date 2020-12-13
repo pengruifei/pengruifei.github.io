@@ -2,12 +2,11 @@
 jekyll-theme-WuK:
  sidebar_open: true
 ---
-# 彭瑞飞
-欢迎访问我的个人主页！下面向你介绍一下我自己吧~
+欢迎访问我的个人博客！我会经常更新一些有用的东西与大家分享，请点击左侧文章标签进行分类浏览，欢迎交流~
 <!-- slide -->
 ## 我的联系方式
-- Phone: **+1 2566688031**
-- Site: **<https://pengruifei.github.io>**
-- E-mail: **[pengruifei@gmail.com](mailto:pengruifei@gmail.com)**
-- WeChat: **ruifei-peng**
+- 手机: **+1 2566688031 (美国)** **+86 17501680507 （中国）**
+- 网站: **<https://pengruifei.github.io>**
+- 邮箱: **[ruifei.peng@gmail.com](mailto:ruifei.peng@gmail.com)**
+- 微信: **ruifei-peng**
 - QQ: **1020677598**
