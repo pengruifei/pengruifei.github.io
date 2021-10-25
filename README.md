@@ -6,7 +6,7 @@ jekyll-theme-WuK:
 <!-- slide -->
 ## 我的联系方式
 - 手机: **+1 2566688031 (美国)** **+86 17501680507 （中国）**
-- 网站: **<https://pengruifei.github.io>**
-- 邮箱: **[ruifei.peng@gmail.com](mailto:ruifei.peng@gmail.com)**
+- 网站: **<https://pengruifei.com>**
+- 邮箱: **[pengruifei@gmail.com](mailto:pengruifei@gmail.com)**
 - 微信: **ruifei-peng**
 - QQ: **1020677598**
