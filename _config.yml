@@ -4,27 +4,6 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
   <a href="mailto:pengruifei@gmail.com">
     <i class="fas fa-envelope"></i>
   </a>
-  <a href="https://www.zhihu.com/qrcode?url=https://u.wechat.com/EM3Z5VdJ7T9XAPTrEYEm30U">
-    <i class="fab fa-weixin"></i>
-  </a>
-  <a href="https://www.zhihu.com/qrcode?url=https://qm.qq.com/cgi-bin/qm/qr?k=wNLlvgcj3sN7U4e10XZOq0ORw_LGMbUH&noverify=0">
-    <i class="fab fa-qq"></i>
-  </a>
-  <a href="https://github.com/pengruifei">
-    <i class="fab fa-github"></i>
-  </a>
-  <a href="https://www.facebook.com/ruifei.peng.9">
-    <i class="fab fa-facebook-f"></i>
-  </a>
-  <a href="https://twitter.com/AlanPeng9">
-    <i class="fab fa-twitter"></i>
-  </a>
-  <a href="https://weibo.com/1624076890/profile?topnav=1&wvr=6&is_all=1">
-    <i class="fab fa-weibo"></i>
-  </a>
-  <a href="https://www.zhihu.com/people/peng-rui-fei">
-    <i class="fab fa-zhihu"></i>
-  </a>
 url: https://pengruifei.com # 你的域名，例如 https://wu-kan.github.io
 baseurl: "" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/assets`前也要加，即`/your_baseurl/assets`。这一项结尾不要有'/'。
 
